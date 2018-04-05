@@ -21,6 +21,11 @@ Or install it yourself as:
     $ gem install instaman
 
 ## Usage
+You should have Chrome ınstalled on your computer before using Instaman. Also install chromedriver-helper gem for Chromedriver. 
+Require Instaman:
+```ruby
+require 'instaman'
+```
 
 Create a new empty array:
 ```ruby
