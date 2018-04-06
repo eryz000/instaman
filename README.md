@@ -1,7 +1,5 @@
 # Instaman
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/instaman`. To experiment with that code, run `bin/console` for an interactive prompt.
-
 Instaman is a gem to increase interaction of your Instagram account and increase the number of followers. It visits the latest posts and likes. Follows the owner and unfollows the user after certain number of loops.You can help to develop a comment part and integrate to gem. Since I do not want anyone to be banned I did not include a random commenting part. I want it to be smart as possible. You can fork and develop project and contact me by using Instagram. My username is @hasannkursunn . I would love to interact with you. 
 
 ## Installation
