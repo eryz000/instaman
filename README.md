@@ -50,6 +50,7 @@ profile.unfollow
 
 The gem was designed to wait enough time after each action. The best thing you can do is to add rescue command as mentioned below and run loop for bot:
 ```ruby
+profile.enter_account
 #Start loop
 loop do
 	#Runs follow part for 16 times
