@@ -28,7 +28,7 @@ class Bot
 	    def bot
 
 	        $hashtags=$hashtags_initial.split(',')
-	        $comments=comments_initial.split(',')
+	        $comments=$comments_initial.split(',')
 
 	        $hashtags.each do |i|
 
