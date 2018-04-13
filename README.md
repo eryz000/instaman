@@ -27,7 +27,7 @@ require 'instaman'
 
 Create a new empty array:
 ```ruby
-follow=[""]
+$follow=[""]
 ```
 
 Then create a new object for Instaman:
@@ -50,9 +50,9 @@ profile.unfollow
 
 The gem was designed to wait enough time after each action. The best thing you can do is to add rescue command as mentioned below and run loop for bot:
 ```ruby
-profile.enter_account
 #Start loop
 loop do
+	profile.enter_account
 	#Runs follow part for 16 times
     begin
         16.times do 
