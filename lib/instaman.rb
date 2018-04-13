@@ -17,7 +17,7 @@ class Bot
 	        #Fill the form and click login button
 	        $browser.text_field(:name, 'username').set "#{$username}"
 	        sleep(2)
-	        $browser.text_field(:name, 'username').set "#{$password}"
+	        $browser.text_field(:name, 'password').set "#{$password}"
 	        sleep(5)
 	        if $browser.button(class: ['_qv64e' , '_gexxb' , '_4tgw8' , '_njrw0']).exists?
 	            $browser.button(class: ['_qv64e' , '_gexxb' , '_4tgw8' , '_njrw0']).click
